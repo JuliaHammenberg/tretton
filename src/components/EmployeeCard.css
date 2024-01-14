@@ -1,0 +1,37 @@
+.cardStyle {
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 40px 0 20px 0;
+  }
+
+.imageStyle {
+    width: 100%;
+    height: auto;
+  }
+
+.cardLayout {
+    display: flex;
+    align-items: flex-end;
+ }
+
+.textItems {
+    flex: 10 0 65%;
+  }
+
+  .logoItems {
+    flex: 0 0 35%;
+  }
+
+.logoStyle {
+    width: 20px;
+    height: auto;
+    padding-bottom: 1rem;
+    margin: 0 5px 0 5px;
+ }
+ 

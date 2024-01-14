@@ -1,0 +1,17 @@
+.search-input {
+    border-color: transparent;
+    border-bottom: 3px solid darkgrey;
+    height: 35px;
+    width: 100%;
+    outline: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: medium;
+  }
+  
+.search-input:hover, .search-input:focus{
+    border-bottom: 3px solid #029284;
+    background-color: white;
+  }
