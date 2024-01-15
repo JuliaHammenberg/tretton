@@ -47,3 +47,14 @@ Tried to use semantic rich tags like `table`, `img` and `h1` as much as possible
 I added the header element to the table of employees to make sure to describe what’s in the table.
 
 How to structure the page is also important. The design was done according to the wire frame which is a standard way of doing a page. Works well with screen readers since you have the title of the page describing it, then the actions and below it is any data.
+
+**Unit Tests**
+I added unit tests to the solution to ensure that the application is working as intended. An improvment would be to them for each component and doing them while coding the functionality.
+
+## Packages
+
+```
+react-test-renderer
+.dotenv
+```
+

@@ -11,10 +11,10 @@ export default function EmployeeList({ employeeList }) {
                 <tr className='table-header'>
                     <th >Employee</th>
                     <th>Office</th>
-                    <th>Links Social Networks</th>
+                    <th>Social Networks</th>
                 </tr>
                 {employeeList.map((employee) => (
-                    <tr key={employee.name} className='row'>
+                    <tr key={employee.name} className='row' datate>
                         <td className='first-cell'>{employee.name}</td>
                         <td className='cell'>{employee.office}</td>
                         <td className='cell'>

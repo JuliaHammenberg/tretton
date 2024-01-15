@@ -13,7 +13,7 @@ export default function EmployeeCard({ employee }) {
 
 
     return (
-        <div className="cardStyle">
+        <div className="cardStyle" data-testid={name}>
             <img
                 src={imagePortraitUrl}
                 alt={`Portrait of ${name}`}

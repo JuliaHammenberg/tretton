@@ -56,14 +56,14 @@ function App() {
 
     // Apply search
     if (query) {
-      filtered = filtered.filter((employee) =>
+      filtered = filtered?.filter((employee) =>
         employee.name.toLowerCase().includes(query.toLowerCase())
       );
     }
 
     // Apply office filter
     if (selectedOffice !== '') {
-      filtered = filtered.filter(
+      filtered = filtered?.filter(
         (employee) => employee.office === selectedOffice
       );
     }
@@ -102,6 +102,7 @@ function App() {
         <div className='button-container'>
           <button
             className='logo-button'
+            data-testid="list"
             onClick={() => {
               setToggle('LIST');
             }}
@@ -110,6 +111,7 @@ function App() {
           </button>
           <button
             className='logo-button'
+            data-testid="grid"
             onClick={() => {
               setToggle('GRID');
             }}
