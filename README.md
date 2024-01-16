@@ -5,11 +5,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I used create react app because it comes with testing frameworks Jest and React Test Library.
 
 ## Available Scripts
+
 Before running the project you will have to run:
 
 ### `npm install`
 
-or 
+or
 
 ### `yarn install`
 
@@ -20,6 +21,7 @@ In the project directory, you can run:
 or
 
 ### `npm start`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -78,6 +80,8 @@ There’s no one-size-fits-all color theme to use for color vision deficiency, s
 
 I have also considered the proximity between elements on the screen. This will also help people with CVD. For instance the buttons to swap between grid and list are close to each other which indicates they are connected.
 
+**Hosted on free public url**
+This site is hosted on GitHub pages. Link the [site](http://juliahammenberg.github.io/tretton).
 
 ## Packages
 
