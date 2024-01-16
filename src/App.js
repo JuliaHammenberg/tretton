@@ -7,6 +7,7 @@ import Search from './components/Search';
 import Filter from './components/Filter';
 import gridLogo from './assets/grid.svg';
 import listLogo from './assets/list.svg';
+import Button from './components/Button';
 
 function App() {
   const [employeeData, setEmployeeData] = useState(null);
@@ -91,6 +92,10 @@ function App() {
     return officeSelect ? officeSelect.value : '';
   };
 
+  const handleButtonClick = (type) => {
+    setToggle(type);
+  }
+
   return (
     <div>
       <Header />
@@ -100,24 +105,8 @@ function App() {
           <Filter offices={offices} handleOfficeFilter={handleOfficeFilter} />
         </div>
         <div className='button-container'>
-          <button
-            className='logo-button'
-            data-testid="list"
-            onClick={() => {
-              setToggle('LIST');
-            }}
-          >
-            <img className='list-logo' src={listLogo} alt={`Swap to list`} />
-          </button>
-          <button
-            className='logo-button'
-            data-testid="grid"
-            onClick={() => {
-              setToggle('GRID');
-            }}
-          >
-            <img className='grid-logo' src={gridLogo} alt={`Swap to grid`} />
-          </button>
+          <Button logo={gridLogo} type={'GRID'} handleClick={handleButtonClick} />
+          <Button logo={listLogo} type={'LIST'} handleClick={handleButtonClick} />
         </div>
       </div>
       {filteredEmployees && (

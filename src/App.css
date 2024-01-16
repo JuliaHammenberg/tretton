@@ -24,17 +24,12 @@
 }
 
 .grid-logo:hover, .list-logo:hover {
-  background-color: #efe8e8;
+  background-color: #ccbe9f;
   border-radius: 5px;
 }
 
 .button-container {
   display: flex;
-  margin: 10px;
-}
-
-.logo-button {
-  background-color: transparent;
-  border: none;
+  margin: 5px;
 }
 

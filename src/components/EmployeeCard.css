@@ -1,4 +1,4 @@
-.cardStyle {
+.card-style {
     width: 22%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -10,25 +10,26 @@
     margin: 40px 0 20px 0;
   }
 
-.imageStyle {
+.image-style {
     width: 100%;
     height: auto;
+    align-self: center;
   }
 
-.cardLayout {
+.card-layout {
     display: flex;
     align-items: flex-end;
  }
 
-.textItems {
+.text-items {
     flex: 10 0 65%;
   }
 
-  .logoItems {
+  .logo-items {
     flex: 0 0 35%;
   }
 
-.logoStyle {
+.logo-style {
     width: 20px;
     height: auto;
     padding-bottom: 1rem;

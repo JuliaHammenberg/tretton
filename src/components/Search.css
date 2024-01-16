@@ -12,6 +12,5 @@
   }
   
 .search-input:hover, .search-input:focus{
-    border-bottom: 3px solid #029284;
-    background-color: white;
+    border-bottom: 3px solid #ccbe9f;
   }

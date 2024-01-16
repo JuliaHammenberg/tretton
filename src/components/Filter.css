@@ -14,3 +14,8 @@
     -webkit-box-sizing: border-box;
     font-size: medium;
   }
+
+  .filter:hover {
+    border-color: transparent;
+    border-bottom: 3px solid #ccbe9f;
+  }

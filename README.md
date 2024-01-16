@@ -51,10 +51,25 @@ How to structure the page is also important. The design was done according to th
 **Unit Tests**
 I added unit tests to the solution to ensure that the application is working as intended. An improvment would be to them for each component and doing them while coding the functionality.
 
+To run the tests
+
+```
+npm run test
+```
+
+**Color Blindness**
+Firstly I picked a background color that would create a better contrast between it and the information on the screen. The colors I selected for the theme looks good together and creates a better contrast. The text is in an even darker color. I stayed away from red and green since red-green is the most common typ of color blindness. What is most important with color combinations is to not put them in a close proximity.
+
+This is a list of combinations you should stay away from at least in close proximity to each other.
+
+There’s no one-size-fits-all color theme to use for color vision deficiency, so it is important not to only use colors to describe user tasks. In this case it was very easy since both text and icons can be used to describe the tasks.
+
+I have also considered the proximity between elements on the screen. This will also help people with CVD. For instance the buttons to swap between grid and list are close to each other which indicates they are connected.
+
+
 ## Packages
 
 ```
 react-test-renderer
 .dotenv
 ```
-

@@ -10,11 +10,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   height: 100%;
+  color:  #382119;;
 }
 
 body {
-  margin: 0;
+margin: 0;
   padding: 2rem;
-  background:  #efe8e8;
+  background:  #abc3c9;
 }
 

@@ -14,7 +14,7 @@ export default function EmployeeList({ employeeList }) {
                     <th>Social Networks</th>
                 </tr>
                 {employeeList.map((employee) => (
-                    <tr key={employee.name} className='row' datate>
+                    <tr key={employee.name} className='row'>
                         <td className='first-cell'>{employee.name}</td>
                         <td className='cell'>{employee.office}</td>
                         <td className='cell'>
