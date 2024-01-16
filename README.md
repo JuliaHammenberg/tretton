@@ -5,11 +5,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I used create react app because it comes with testing frameworks Jest and React Test Library.
 
 ## Available Scripts
+Before running the project you will have to run:
+
+### `npm install`
+
+or 
+
+### `yarn install`
 
 In the project directory, you can run:
 
 ### `yarn start`
 
+or
+
+### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -49,6 +59,7 @@ I added the header element to the table of employees to make sure to describe wh
 How to structure the page is also important. The design was done according to the wire frame which is a standard way of doing a page. Works well with screen readers since you have the title of the page describing it, then the actions and below it is any data.
 
 **Unit Tests**
+
 I added unit tests to the solution to ensure that the application is working as intended. An improvment would be to them for each component and doing them while coding the functionality.
 
 To run the tests
@@ -58,6 +69,7 @@ npm run test
 ```
 
 **Color Blindness**
+
 Firstly I picked a background color that would create a better contrast between it and the information on the screen. The colors I selected for the theme looks good together and creates a better contrast. The text is in an even darker color. I stayed away from red and green since red-green is the most common typ of color blindness. What is most important with color combinations is to not put them in a close proximity.
 
 This is a list of combinations you should stay away from at least in close proximity to each other.
