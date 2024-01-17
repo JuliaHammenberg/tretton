@@ -6,21 +6,13 @@ I used create react app because it comes with testing frameworks Jest and React 
 
 ## Available Scripts
 
-Before running the project you will have to run:
+Before running the project you will have to do run:
 
-### `npm install`
+### `yarn install` or `npm install`
 
-or
+In the project directory, you can do the following to run the application locally:
 
-### `yarn install`
-
-In the project directory, you can run:
-
-### `yarn start`
-
-or
-
-### `npm start`
+### `yarn start` or `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -28,9 +20,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-You will also have to add a .env file in the root directory with you API key. Otherwise no employees will display.
+You will also have to add a .env file in the root directory with your API key. Otherwise no employees will display when you run it locally.
 
-### `yarn test`
+### `yarn test` or `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -47,13 +39,19 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Implemented User Stories
 
+I selected the following stories because they are used in a normal development flow. You would create a design, do the functionality and test it. When it's up to your standard you publish it. The reason I focused on accesiblility stories are that I'm interested in the area and want to learn more about it. So this was an opportunity to do some more research as well.
+
 **Filter by name and office**
+I selected a search area to filter on the employee names. Any other type of action like a dropdown wouldn't make sense with that amount of data. For the offices a dropdown gives the site a good feel.
 
 **Switch between views**
+I give the user the possibilty to swap between views with two icon buttons, which is a standard functionality.
 
 **Screen Reader compatible**
 
-To make the site screen reader compatible I started by going over every component and running the built in voice over for Mac. You should always make sure to declare page language.
+To make the site screen reader compatible I started by going over every component and running the built in voice over for Mac.
+
+You should always make sure to declare page language so the screen reader.
 
 Images should have an alt tag to describe it in a short and clear way.
 Tried to use semantic rich tags like `table`, `img` and `h1` as much as possible. `div’s` are not semantic and need more information added to them when they are important and need to be presented to the user.
@@ -64,7 +62,7 @@ How to structure the page is also important. The design was done according to th
 
 **Unit Tests**
 
-I added unit tests to the solution to ensure that the application is working as intended. An improvment would be to them for each component and doing them while coding the functionality.
+I added unit tests to the solution to ensure that the application is working as intended.
 
 To run the tests
 
@@ -83,7 +81,7 @@ There’s no one-size-fits-all color theme to use for color vision deficiency, s
 I have also considered the proximity between elements on the screen. This will also help people with CVD. For instance the buttons to swap between grid and list are close to each other which indicates they are connected.
 
 **Hosted on free public url**
-This site is hosted on GitHub pages. Link the [site](http://juliahammenberg.github.io/tretton).
+This site is now hosted on GitHub pages. Link the [site](http://juliahammenberg.github.io/tretton).
 
 ## Packages
 
