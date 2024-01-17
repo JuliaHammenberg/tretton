@@ -8,17 +8,18 @@ import Filter from './components/Filter';
 import gridLogo from './assets/grid.svg';
 import listLogo from './assets/list.svg';
 import Button from './components/Button';
+import ErrorSection from './components/ErrorSection';
 
 function App() {
   const [employeeData, setEmployeeData] = useState(null);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState();
   const [filteredEmployees, setFilteredEmployees] = useState([]);
   const [offices, setOffices] = useState([]);
   const [toggle, setToggle] = useState('GRID');
 
   useEffect(() => {
     const fetchData = async () => {
-      const apiToken = process.env.REACT_APP_API_KEY;;
+      const apiToken = process.env.REACT_APP_API_KEY;
 
       const apiUrl = 'https://api.1337co.de/v3/employees';
 
@@ -45,7 +46,7 @@ function App() {
         ];
         setOffices(uniqueOffices);
       } catch (error) {
-        setError(error);
+        setError('Not able to load employees.');
       }
     };
 
@@ -109,7 +110,7 @@ function App() {
           <Button logo={listLogo} type={'LIST'} handleClick={handleButtonClick} />
         </div>
       </div>
-      {filteredEmployees && (
+      {error ? (<ErrorSection errorMessage={error} />) : (
         <div>
           {toggle === 'GRID' ? (
             <div
@@ -125,7 +126,6 @@ function App() {
           )}
         </div>
       )}
-      <div />
     </div>
   );
 }

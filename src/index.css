@@ -19,3 +19,6 @@ margin: 0;
   background:  #abc3c9;
 }
 
+p {
+  padding-left: 10px;
+}
