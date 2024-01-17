@@ -1,8 +1,10 @@
 # Colleagues
 
+This is a small application displaying the employees at Tretton37. The user will haev the ability to search for any employee they're looking for. They can filter on a particular office and also swap to a list view.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-I used create react app because it comes with testing frameworks Jest and React Test Library.
+I used create react app because it comes with testing frameworks Jest and React Test Library, and is a quick way to get a project up and running.
 
 ## Available Scripts
 
@@ -27,7 +29,7 @@ You will also have to add a .env file in the root directory with your API key. O
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `yarn build` or `npm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -87,5 +89,12 @@ This site is now hosted on GitHub pages. Link the [site](http://juliahammenberg.
 
 ```
 react-test-renderer
+```
+
+Was installed to be able to get snapshot of the DOM tree.
+
+```
 .dotenv
 ```
+
+Was installed to hide private api keys.

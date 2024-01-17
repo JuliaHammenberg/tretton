@@ -1,4 +1,4 @@
-.search {
+.search-input {
     border-color: transparent;
     border-bottom: 3px solid darkgrey;
     height: 35px;
@@ -11,6 +11,6 @@
     font-size: medium;
 }
   
-.search:hover, .search:focus{
+.search-input:hover, .search-input:focus{
     border-bottom: 3px solid #ccbe9f;
 }

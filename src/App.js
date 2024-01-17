@@ -110,7 +110,8 @@ function App() {
           <Button logo={listLogo} type={'LIST'} handleClick={handleButtonClick} />
         </div>
       </div>
-      {error ? (<ErrorSection errorMessage={error} />) : (
+      {error && (<ErrorSection errorMessage={error} />)}
+      {filteredEmployees && (
         <div>
           {toggle === 'GRID' ? (
             <div
