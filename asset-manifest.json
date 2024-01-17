@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tretton/static/css/main.a9181cbb.css",
-    "main.js": "/tretton/static/js/main.4f643466.js",
+    "main.js": "/tretton/static/js/main.cb8fd274.js",
     "static/js/787.e1fe9729.chunk.js": "/tretton/static/js/787.e1fe9729.chunk.js",
     "static/media/grid.svg": "/tretton/static/media/grid.11b3a37cd8e81703eb99c0371246a853.svg",
     "index.html": "/tretton/index.html",
     "static/media/list.svg": "/tretton/static/media/list.1320df01975afb9d39dd1adebbeaf324.svg",
     "main.a9181cbb.css.map": "/tretton/static/css/main.a9181cbb.css.map",
-    "main.4f643466.js.map": "/tretton/static/js/main.4f643466.js.map",
+    "main.cb8fd274.js.map": "/tretton/static/js/main.cb8fd274.js.map",
     "787.e1fe9729.chunk.js.map": "/tretton/static/js/787.e1fe9729.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9181cbb.css",
-    "static/js/main.4f643466.js"
+    "static/js/main.cb8fd274.js"
   ]
 }
