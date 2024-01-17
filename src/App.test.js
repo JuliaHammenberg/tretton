@@ -49,9 +49,9 @@ test('filter on office', async () => {
 
 test('grid and list view', async () => {
   render(<App />);
-  const listButton = screen.getByTestId("list");
+  const listButton = screen.getByTestId("LIST");
   // Make sure buttons are there after render
-  expect(screen.getByTestId("grid")).toBeInTheDocument();
+  expect(screen.getByTestId("GRID")).toBeInTheDocument();
   expect(listButton).toBeInTheDocument();
   // Check that cards are showing
   expect(await screen.findByTestId("John")).toBeInTheDocument();
