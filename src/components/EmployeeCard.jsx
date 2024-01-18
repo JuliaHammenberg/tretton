@@ -25,9 +25,9 @@ export default function EmployeeCard({ employee }) {
                     <p>Office: {office}</p>
                 </div>
                 <div className='logo-items'>
-                    <a href={linkedInUrl}><img className="logo-style" src={linkedinLogo} alt="Link to Linkedin" /></a>
-                    <a href={gitHubUrl}><img className="logo-style" src={gitLogo} alt="Link to Github" /></a>
-                    <a href={twitterUrl}><img className="logo-style" src={twitterLogo} alt="Link to twitter" /></a>
+                    {linkedIn && (<a href={linkedInUrl}><img className="logo-style" src={linkedinLogo} alt="Link to Linkedin" /></a>)}
+                    {gitHub && (<a href={gitHubUrl}><img className="logo-style" src={gitLogo} alt="Link to Github" /></a>)}
+                    {twitter && (<a href={twitterUrl}><img className="logo-style" src={twitterLogo} alt="Link to twitter" /></a>)}
                 </div>
             </div>
         </div>

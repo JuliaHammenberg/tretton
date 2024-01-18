@@ -14,6 +14,7 @@
     width: 100%;
     height: auto;
     align-self: center;
+    margin: auto;
   }
 
 .card-layout {
@@ -27,6 +28,9 @@
 
   .logo-items {
     flex: 0 0 35%;
+    align-items: center;
+    justify-content: end;
+    display: flex;
   }
 
 .logo-style {
